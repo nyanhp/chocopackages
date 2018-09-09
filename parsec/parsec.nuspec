@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>parsec</id>
+    <version>147.4.0.0</version>
+    <title>Parsec</title>
+    <authors>Parsec Cloud, Inc</authors>
+    <projectUrl>https://parsecgaming.com</projectUrl>
+    <copyright>2016-2018 Parsec Cloud, Inc</copyright>
+    <licenseUrl>https://parsecgaming.com/terms</licenseUrl>
+    <docsUrl>https://support.parsecgaming.com/hc/en-us</docsUrl>
+    <tags>parsec cloud gaming</tags>
+    <summary>Simple, low-latency game streaming</summary>
+    <description>
+    ## Connect to a gaming PC from anywhere
+
+    Parsec uses its game streaming technology to let you access your gaming
+    PC from anywhere and invite your friends to connect and play local multiplayer games online.
+    
+    ## Forget what you know about screen sharing, Netplay, and difficult-to-use VPNs.
+    Parsec connects two devices to let you play your PC games from anywhere on any device.
+    Play your games from the couch, work, or a friend's basement. Stop worrying about how you're
+    going to get your next game in — Parsec Co-Play works with any offline multiplayer game without hassle.
+    
+    ## Play your favorite games anywhere with low latency at 60 frames per second
+    We're 100% focused on delivering the best game streaming performance possible.
+    You don't have to suffer through button mashing and frame rate drops.
+    Play on any device at a glorious 60 FPS with Parsec.
+    </description>
+    <releaseNotes>Initial release</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
