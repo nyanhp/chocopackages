@@ -29,6 +29,9 @@
     Play on any device at a glorious 60 FPS with Parsec.
     </description>
     <releaseNotes>Initial release</releaseNotes>
+    <dependencies>
+      <dependency id="autohotkey.portable" version="1.1.30.00" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

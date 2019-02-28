@@ -7,7 +7,6 @@ $url = 'https://s3.amazonaws.com/parsec-build/package/parsec-windows32.exe'
 $url64 = 'https://s3.amazonaws.com/parsec-build/package/parsec-windows.exe'
 $pp = Get-PackageParameters
 $installDriver = $pp['InstallControllerDriver'] -eq 'true'
-New-Item -Path $toolsDir -Name 'parsec-windows32.exe.gui', 'parsec-windows.exe.gui' -ItemType File -Force -ErrorAction SilentlyContinue
 
 $packageArgs = @{
     packageName    = $env:ChocolateyPackageName
